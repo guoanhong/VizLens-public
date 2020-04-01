@@ -1,0 +1,59 @@
+cmake_minimum_required(VERSION 2.8)
+project( viz )
+
+include_directories(/usr/local/include)
+link_directories(/usr/lib)
+
+include(CheckCXXCompilerFlag)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+if(COMPILER_SUPPORTS_CXX11)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+elseif(COMPILER_SUPPORTS_CXX0X)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+else()
+    message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
+
+set( OpenCV_DIR ../../opencv-2.4.10/build )
+set( OpenCV_FOUND 1 )
+find_package( OpenCV REQUIRED )
+
+set(CURL_DIR usr/local/curl/ )
+find_package(curl REQUIRED)
+include_directories(${CURL_INCLUDE_DIR})
+link_directories(${CURL_LIBRARY_DIRS})
+
+# set(LEPTONICA_INCLUDE_PATH "/usr/local/Cellar/leptonica/1.73/include/leptonica")
+# set( LEPTONICA_DIR leptonica/build )
+set( Leptonica_DIR leptonica/build )
+find_package( Leptonica REQUIRED ) 
+include_directories( ${Leptonica_INCLUDE_DIRS} )
+link_directories( ${LEPTONICA_LIBRARY_DIRS} )
+
+set( Tesseract_DIR tesseract/build )
+find_package( Tesseract REQUIRED )
+include_directories( ${Tesseract_INCLUDE_DIRS} )
+link_directories( ${TESSERACT_LIBRARY_DIRS} )
+
+file(GLOB SOURCES
+    main.cpp
+    lib/db_utils.hpp
+    lib/db_utils.cpp
+    lib/img_utils.hpp
+    lib/img_utils.cpp
+    lib/ocr_utils.hpp
+    lib/ocr_utils.cpp
+    lib/feedback_utils.hpp
+    lib/feedback_utils.cpp
+    lib/statemap_utils.hpp
+    lib/statemap_utils.cpp
+    lib/visualization.hpp
+    lib/visualization.cpp
+)
+add_executable( viz ${SOURCES})
+target_link_libraries( viz ${OpenCV_LIBS} )
+target_link_libraries( viz ${Leptonica_LIBRARIES} )
+target_link_libraries( viz ${Tesseract_LIBRARIES} )
+target_link_libraries( viz ${CURL_LIBRARIES})
+target_link_libraries( viz sqlite3 )

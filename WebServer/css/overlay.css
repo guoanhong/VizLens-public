@@ -1,0 +1,105 @@
+body,html {
+    font-face: tahoma, arial, sans serif;
+    margin: 0;
+    padding: 0;
+}
+
+#instr-area {
+    text-align: center;
+    font-weight: bold;
+    width: 540px;
+}
+
+#entry_header {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#entry_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 580px;
+    height: 300px;
+    padding-top: 0px;
+}
+
+/*.defaultText { width: 300px; }*/
+.defaultTextActive { color: #a1a1a1; font-style: italic; }
+
+.container {
+  border: 2px solid #000;
+
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+
+#img-container {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+/*
+#outer-container {
+	margin-left: auto;
+	margin-right: auto;
+	border: 6px solid #000;
+	border-radius: 8px;
+	background: #EEF;
+}
+*/
+
+#title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#header {
+	text-align: left;
+	font-size: 20px;
+	font-weight: normal;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #007;
+}
+
+
+#image_wrapper {
+  display: block;
+  margin-bottom: 25px;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+}
+
+.mask {
+  position: absolute;
+  z-index: 999;
+  background-color: rgba(17, 17, 221, 0.35);
+  border: 1px dotted #000;
+}
+
+/*
+.maskText:hover {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 22px;
+  position: relative;
+  left: 20%;
+  top: 30%;
+}*/
+
+.maskText {
+   color: rgba(255, 255, 255, 0.8);
+}
+

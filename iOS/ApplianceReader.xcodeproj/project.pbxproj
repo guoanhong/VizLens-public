@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC06C8831F059DA5009BF040 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06C8821F059DA5009BF040 /* opencv2.framework */; };
+		FC06C8871F05A332009BF040 /* ARDevViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC06C8851F05A332009BF040 /* ARDevViewController.mm */; };
+		FC06C8881F05A332009BF040 /* ARDevViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC06C8861F05A332009BF040 /* ARDevViewController.xib */; };
+		FC06F13C1F0ED5B1001A1015 /* breadman_plus_520x960.png in Resources */ = {isa = PBXBuildFile; fileRef = FC06F13A1F0ED5B1001A1015 /* breadman_plus_520x960.png */; };
+		FC06F13D1F0ED5B1001A1015 /* breadman_plus_270x480.png in Resources */ = {isa = PBXBuildFile; fileRef = FC06F13B1F0ED5B1001A1015 /* breadman_plus_270x480.png */; };
+		FC1A90D61C8E09A5006F1D58 /* ARInterfaceListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1A90D51C8E09A5006F1D58 /* ARInterfaceListTableViewController.xib */; };
+		FC1A90DA1C8E1264006F1D58 /* ARInterfaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1A90D91C8E1264006F1D58 /* ARInterfaceTableViewCell.xib */; };
+		FC1A90E11C8E1CCF006F1D58 /* ARInterfaceFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1A90E01C8E1CCF006F1D58 /* ARInterfaceFeedbackViewController.xib */; };
+		FC2412DA1C9F0BA800C951E9 /* no_finger.aif in Resources */ = {isa = PBXBuildFile; fileRef = FC2412D81C9F0BA800C951E9 /* no_finger.aif */; };
+		FC2412DB1C9F0BA800C951E9 /* no_object.aif in Resources */ = {isa = PBXBuildFile; fileRef = FC2412D91C9F0BA800C951E9 /* no_object.aif */; };
+		FC5E00801C913D970082D3E8 /* ARSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5E007E1C913D970082D3E8 /* ARSettingsViewController.m */; };
+		FC5E00811C913D970082D3E8 /* ARSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5E007F1C913D970082D3E8 /* ARSettingsViewController.xib */; };
+		FC68CB8B1C99476300B50355 /* ARSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FC68CB8A1C99476300B50355 /* ARSlider.m */; };
+		FC7E77851CB592A9003AA67D /* ARTargetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E77841CB592A9003AA67D /* ARTargetCollectionViewCell.m */; };
+		FC7E77881CB60A64003AA67D /* ARTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E77871CB60A64003AA67D /* ARTarget.m */; };
+		FC7E778B1CB6C009003AA67D /* ARCollectionViewInterfaceLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E778A1CB6C009003AA67D /* ARCollectionViewInterfaceLayout.m */; };
+		FCA319E61C84D71500982263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA319E51C84D71500982263 /* main.m */; };
+		FCA319E91C84D71500982263 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA319E81C84D71500982263 /* ARAppDelegate.m */; };
+		FCA319EC1C84D71500982263 /* ARInterfaceFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA319EB1C84D71500982263 /* ARInterfaceFeedbackViewController.m */; };
+		FCA319F11C84D71500982263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA319F01C84D71500982263 /* Assets.xcassets */; };
+		FCC1D4AD1C89F64A00309F1F /* ARInterfaceListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1D4AC1C89F64A00309F1F /* ARInterfaceListTableViewController.m */; };
+		FCC205431F06D99C004CDEC2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC205421F06D99C004CDEC2 /* AssetsLibrary.framework */; };
+		FCD40A8B1C9502DB007705EE /* ARTargetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD40A8A1C9502DB007705EE /* ARTargetCollectionViewCell.xib */; };
+		FCD40A8D1C971EAF007705EE /* AROptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD40A8C1C971EAF007705EE /* AROptionTableViewCell.xib */; };
+		FCDFEBB21C8CE7E700C93FD8 /* ARInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDFEBB11C8CE7E700C93FD8 /* ARInterface.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC06C8821F059DA5009BF040 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ApplianceReader/opencv2.framework; sourceTree = "<group>"; };
+		FC06C8841F05A332009BF040 /* ARDevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDevViewController.h; sourceTree = "<group>"; };
+		FC06C8851F05A332009BF040 /* ARDevViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARDevViewController.mm; sourceTree = "<group>"; };
+		FC06C8861F05A332009BF040 /* ARDevViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARDevViewController.xib; sourceTree = "<group>"; };
+		FC06F13A1F0ED5B1001A1015 /* breadman_plus_520x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breadman_plus_520x960.png; sourceTree = "<group>"; };
+		FC06F13B1F0ED5B1001A1015 /* breadman_plus_270x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breadman_plus_270x480.png; sourceTree = "<group>"; };
+		FC1A90D51C8E09A5006F1D58 /* ARInterfaceListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARInterfaceListTableViewController.xib; sourceTree = "<group>"; };
+		FC1A90D91C8E1264006F1D58 /* ARInterfaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARInterfaceTableViewCell.xib; sourceTree = "<group>"; };
+		FC1A90E01C8E1CCF006F1D58 /* ARInterfaceFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARInterfaceFeedbackViewController.xib; sourceTree = "<group>"; };
+		FC2412D81C9F0BA800C951E9 /* no_finger.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = no_finger.aif; sourceTree = "<group>"; };
+		FC2412D91C9F0BA800C951E9 /* no_object.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = no_object.aif; sourceTree = "<group>"; };
+		FC5E007D1C913D970082D3E8 /* ARSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSettingsViewController.h; sourceTree = "<group>"; };
+		FC5E007E1C913D970082D3E8 /* ARSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSettingsViewController.m; sourceTree = "<group>"; };
+		FC5E007F1C913D970082D3E8 /* ARSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSettingsViewController.xib; sourceTree = "<group>"; };
+		FC68CB891C99476300B50355 /* ARSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSlider.h; sourceTree = "<group>"; };
+		FC68CB8A1C99476300B50355 /* ARSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSlider.m; sourceTree = "<group>"; };
+		FC7E77831CB592A9003AA67D /* ARTargetCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTargetCollectionViewCell.h; sourceTree = "<group>"; };
+		FC7E77841CB592A9003AA67D /* ARTargetCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTargetCollectionViewCell.m; sourceTree = "<group>"; };
+		FC7E77861CB60A64003AA67D /* ARTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTarget.h; sourceTree = "<group>"; };
+		FC7E77871CB60A64003AA67D /* ARTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTarget.m; sourceTree = "<group>"; };
+		FC7E77891CB6C009003AA67D /* ARCollectionViewInterfaceLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCollectionViewInterfaceLayout.h; sourceTree = "<group>"; };
+		FC7E778A1CB6C009003AA67D /* ARCollectionViewInterfaceLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCollectionViewInterfaceLayout.m; sourceTree = "<group>"; };
+		FCA319E11C84D71500982263 /* VizLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VizLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA319E51C84D71500982263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA319E71C84D71500982263 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		FCA319E81C84D71500982263 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		FCA319EA1C84D71500982263 /* ARInterfaceFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARInterfaceFeedbackViewController.h; sourceTree = "<group>"; };
+		FCA319EB1C84D71500982263 /* ARInterfaceFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARInterfaceFeedbackViewController.m; sourceTree = "<group>"; };
+		FCA319F01C84D71500982263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA319F51C84D71500982263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC1D4AB1C89F64A00309F1F /* ARInterfaceListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARInterfaceListTableViewController.h; sourceTree = "<group>"; };
+		FCC1D4AC1C89F64A00309F1F /* ARInterfaceListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARInterfaceListTableViewController.m; sourceTree = "<group>"; };
+		FCC205421F06D99C004CDEC2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FCD40A8A1C9502DB007705EE /* ARTargetCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARTargetCollectionViewCell.xib; sourceTree = "<group>"; };
+		FCD40A8C1C971EAF007705EE /* AROptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AROptionTableViewCell.xib; sourceTree = "<group>"; };
+		FCDFEBB01C8CE7E700C93FD8 /* ARInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARInterface.h; sourceTree = "<group>"; };
+		FCDFEBB11C8CE7E700C93FD8 /* ARInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARInterface.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA319DE1C84D71500982263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC205431F06D99C004CDEC2 /* AssetsLibrary.framework in Frameworks */,
+				FC06C8831F059DA5009BF040 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC06C8811F059DA0009BF040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC205421F06D99C004CDEC2 /* AssetsLibrary.framework */,
+				FC06C8821F059DA5009BF040 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC2412D31C9B567800C951E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC06F13B1F0ED5B1001A1015 /* breadman_plus_270x480.png */,
+				FC06F13A1F0ED5B1001A1015 /* breadman_plus_520x960.png */,
+				FC2412D81C9F0BA800C951E9 /* no_finger.aif */,
+				FC2412D91C9F0BA800C951E9 /* no_object.aif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FCA319D81C84D71400982263 = {
+			isa = PBXGroup;
+			children = (
+				FCA319E31C84D71500982263 /* ApplianceReader */,
+				FCA319E21C84D71500982263 /* Products */,
+				FC06C8811F059DA0009BF040 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA319E21C84D71500982263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA319E11C84D71500982263 /* VizLens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA319E31C84D71500982263 /* ApplianceReader */ = {
+			isa = PBXGroup;
+			children = (
+				FC06C8841F05A332009BF040 /* ARDevViewController.h */,
+				FC06C8851F05A332009BF040 /* ARDevViewController.mm */,
+				FC06C8861F05A332009BF040 /* ARDevViewController.xib */,
+				FC68CB891C99476300B50355 /* ARSlider.h */,
+				FC68CB8A1C99476300B50355 /* ARSlider.m */,
+				FCA319E71C84D71500982263 /* ARAppDelegate.h */,
+				FCA319E81C84D71500982263 /* ARAppDelegate.m */,
+				FCDFEBB01C8CE7E700C93FD8 /* ARInterface.h */,
+				FCDFEBB11C8CE7E700C93FD8 /* ARInterface.m */,
+				FC7E77861CB60A64003AA67D /* ARTarget.h */,
+				FC7E77871CB60A64003AA67D /* ARTarget.m */,
+				FCA319EA1C84D71500982263 /* ARInterfaceFeedbackViewController.h */,
+				FCA319EB1C84D71500982263 /* ARInterfaceFeedbackViewController.m */,
+				FC1A90E01C8E1CCF006F1D58 /* ARInterfaceFeedbackViewController.xib */,
+				FC7E77891CB6C009003AA67D /* ARCollectionViewInterfaceLayout.h */,
+				FC7E778A1CB6C009003AA67D /* ARCollectionViewInterfaceLayout.m */,
+				FC1A90D91C8E1264006F1D58 /* ARInterfaceTableViewCell.xib */,
+				FCD40A8C1C971EAF007705EE /* AROptionTableViewCell.xib */,
+				FC7E77831CB592A9003AA67D /* ARTargetCollectionViewCell.h */,
+				FC7E77841CB592A9003AA67D /* ARTargetCollectionViewCell.m */,
+				FCD40A8A1C9502DB007705EE /* ARTargetCollectionViewCell.xib */,
+				FCC1D4AB1C89F64A00309F1F /* ARInterfaceListTableViewController.h */,
+				FCC1D4AC1C89F64A00309F1F /* ARInterfaceListTableViewController.m */,
+				FC1A90D51C8E09A5006F1D58 /* ARInterfaceListTableViewController.xib */,
+				FC5E007D1C913D970082D3E8 /* ARSettingsViewController.h */,
+				FC5E007E1C913D970082D3E8 /* ARSettingsViewController.m */,
+				FC5E007F1C913D970082D3E8 /* ARSettingsViewController.xib */,
+				FCA319F01C84D71500982263 /* Assets.xcassets */,
+				FCA319F51C84D71500982263 /* Info.plist */,
+				FC2412D31C9B567800C951E9 /* Resources */,
+				FCA319E41C84D71500982263 /* Supporting Files */,
+			);
+			path = ApplianceReader;
+			sourceTree = "<group>";
+		};
+		FCA319E41C84D71500982263 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA319E51C84D71500982263 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA319E01C84D71500982263 /* ApplianceReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA319F81C84D71500982263 /* Build configuration list for PBXNativeTarget "ApplianceReader" */;
+			buildPhases = (
+				FCA319DD1C84D71500982263 /* Sources */,
+				FCA319DE1C84D71500982263 /* Frameworks */,
+				FCA319DF1C84D71500982263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplianceReader;
+			productName = ApplianceReader;
+			productReference = FCA319E11C84D71500982263 /* VizLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA319D91C84D71400982263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BigLab;
+				TargetAttributes = {
+					FCA319E01C84D71500982263 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TNK35Y7NJQ;
+					};
+				};
+			};
+			buildConfigurationList = FCA319DC1C84D71400982263 /* Build configuration list for PBXProject "ApplianceReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = FCA319D81C84D71400982263;
+			productRefGroup = FCA319E21C84D71500982263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA319E01C84D71500982263 /* ApplianceReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA319DF1C84D71500982263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2412DB1C9F0BA800C951E9 /* no_object.aif in Resources */,
+				FC2412DA1C9F0BA800C951E9 /* no_finger.aif in Resources */,
+				FCA319F11C84D71500982263 /* Assets.xcassets in Resources */,
+				FCD40A8B1C9502DB007705EE /* ARTargetCollectionViewCell.xib in Resources */,
+				FC1A90DA1C8E1264006F1D58 /* ARInterfaceTableViewCell.xib in Resources */,
+				FC5E00811C913D970082D3E8 /* ARSettingsViewController.xib in Resources */,
+				FC1A90E11C8E1CCF006F1D58 /* ARInterfaceFeedbackViewController.xib in Resources */,
+				FC06F13C1F0ED5B1001A1015 /* breadman_plus_520x960.png in Resources */,
+				FC06F13D1F0ED5B1001A1015 /* breadman_plus_270x480.png in Resources */,
+				FCD40A8D1C971EAF007705EE /* AROptionTableViewCell.xib in Resources */,
+				FC1A90D61C8E09A5006F1D58 /* ARInterfaceListTableViewController.xib in Resources */,
+				FC06C8881F05A332009BF040 /* ARDevViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA319DD1C84D71500982263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E77851CB592A9003AA67D /* ARTargetCollectionViewCell.m in Sources */,
+				FC68CB8B1C99476300B50355 /* ARSlider.m in Sources */,
+				FCA319EC1C84D71500982263 /* ARInterfaceFeedbackViewController.m in Sources */,
+				FCA319E91C84D71500982263 /* ARAppDelegate.m in Sources */,
+				FC5E00801C913D970082D3E8 /* ARSettingsViewController.m in Sources */,
+				FCDFEBB21C8CE7E700C93FD8 /* ARInterface.m in Sources */,
+				FC06C8871F05A332009BF040 /* ARDevViewController.mm in Sources */,
+				FC7E77881CB60A64003AA67D /* ARTarget.m in Sources */,
+				FC7E778B1CB6C009003AA67D /* ARCollectionViewInterfaceLayout.m in Sources */,
+				FCC1D4AD1C89F64A00309F1F /* ARInterfaceListTableViewController.m in Sources */,
+				FCA319E61C84D71500982263 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCA319F61C84D71500982263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCA319F71C84D71500982263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA319F91C84D71500982263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TNK35Y7NJQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ApplianceReader",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApplianceReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.StateLens;
+				PRODUCT_NAME = VizLens;
+			};
+			name = Debug;
+		};
+		FCA319FA1C84D71500982263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TNK35Y7NJQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ApplianceReader",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = ApplianceReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.StateLens;
+				PRODUCT_NAME = VizLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA319DC1C84D71400982263 /* Build configuration list for PBXProject "ApplianceReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA319F61C84D71500982263 /* Debug */,
+				FCA319F71C84D71500982263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA319F81C84D71500982263 /* Build configuration list for PBXNativeTarget "ApplianceReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA319F91C84D71500982263 /* Debug */,
+				FCA319FA1C84D71500982263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA319D91C84D71400982263 /* Project object */;
+}

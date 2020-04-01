@@ -1,0 +1,216 @@
+body,html {
+    font-face: tahoma, arial, sans serif;
+    margin: 0;
+    padding: 0;
+}
+
+#instr-area {
+    text-align: center;
+    font-weight: bold;
+    width: 540px;
+}
+
+#entry_header {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#entry_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 580px;
+    height: 300px;
+    padding-top: 15px;
+}
+
+ul#chat-area {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 316px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #888;
+    text-align: left;
+}
+
+#txt{
+	float: left;
+	width: 380px;
+}
+
+/*.defaultText { width: 300px; }*/
+.defaultTextActive { color: #a1a1a1; font-style: italic; }
+
+.chat-box, #mike {
+    width: 310px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+.container {
+  border: 2px solid #000;
+
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.submit-button{
+	margin: 0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	display:inline-block;
+	color:#FFFFFF;
+	font-family:times;
+	font-size:16px;
+	font-weight:bold;
+	/*padding: 20px 13px 20px 13px;*/
+	width: 360px;
+	padding: 17px 3px 17px 3px;
+	text-decoration:none;
+}
+.submit-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4ab811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #4ab811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ab811', endColorstr='#77d42a');
+	background-color:#4ab811;
+	cursor: pointer;
+}
+.submit-button:active {
+	position:relative;
+	top:1px;
+}
+
+.submit-yes {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #267A16), color-stop(1, #4ab811) );
+	background:-moz-linear-gradient( center top, #267A16 5%, #4ab811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#267A16', endColorstr='#4ab811');
+	background-color:#267A16;
+	border:1px solid #267A16;
+}
+
+.submit-no {
+        -moz-box-shadow:inset 0px 1px 0px 0px #efcaab;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #efcaab;
+        box-shadow:inset 0px 1px 0px 0px #efcaab;
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7A2616), color-stop(1, #b84a11) );
+        background:-moz-linear-gradient( center top, #7A2616 5%, #b85c11 100% );
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7A2616', endColorstr='#b84a11');
+        background-color:#7A2616;
+	border:1px solid #7A2616;
+}
+
+.message{
+	/* REDACT
+	float: left;
+	*/
+	width: 275px !important;
+}
+
+#img-container {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#outer-container-label {
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	border-radius: 5px;
+	background: #F1F1F1;
+	padding: 10px;
+	margin: 5px;
+}
+
+#outer-container-crop {
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 3px solid #000;*/
+  /*border-radius: 5px;*/
+  background: #F1F1F1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header {
+	text-align: left;
+	font-size: 26px;
+	font-weight: bold;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #007;
+	margin-top: 8px;
+}
+
+#reset-container {
+	text-align: center;
+}
+
+.wordBtn {
+	font-size: 22px;
+}
+
+.selected {
+	color: #AAA;
+}
+
+#image_wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 10px;
+/*
+  width: 160px;
+  height: 120px;
+  background-image: url(images/house1.jpg);
+  background-position: 0px -60px;
+*/
+  background-repeat: no-repeat;
+}
+
+.error {
+  font-weight: bold;
+  color: #f00;
+  font-size: 24px;
+}
+
+#unsure {
+  background-color: #ff0;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#label-wrapper {
+  text-align: center;
+  font-size: 18px;
+}
+
+#labelText {
+  width: 250px;
+  height: 80px;
+}
+
+#description {
+  width: 250px;
+  height: 80px;
+}
+
+#buttons {
+  font-size: 18px;
+}
+

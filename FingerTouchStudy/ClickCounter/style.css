@@ -1,0 +1,30 @@
+html {
+  position: fixed;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 200pt;
+  font-weight: normal;
+  background: black;
+}
+
+button {
+  background: transparent;
+  text-align: center;
+  text-shadow: 1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  padding-left: 600px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 200px;
+  cursor: pointer;
+  text-align: center;
+}

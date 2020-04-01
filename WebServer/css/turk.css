@@ -1,0 +1,17 @@
+#submit-div {
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+
+#submit-div input {
+  font-family: verdana;
+  font-size: 1.2em;
+  font-weight: bold;
+/*
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  padding: .4em;
+  color: #FFF;
+*/
+}
